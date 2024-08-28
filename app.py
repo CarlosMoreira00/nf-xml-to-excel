@@ -47,9 +47,6 @@ def filter_data(file_name, data, count):
 count = 1 
 data = []
 files_names = os.listdir('nfs')
-# files_names = ['35240109227302000171550010000658321000101021-48577231000199-000000000002024-procnfe.xml']
-# files_names2 = ['35240104827322000240550010000266001005100174-48577231000199-000000000001920-procnfe.xml']
-
 for file in files_names:
     filter_data(file, data, count)
     count = count + 1
